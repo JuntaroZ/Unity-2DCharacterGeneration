@@ -1,0 +1,20 @@
+検査記録（2026-10-09）
+
+生成対象: Karen fighting_idle 7フレーム
+キャンバス: 全フレーム 660 x 1650 px
+PNG / 連番: fighting_idle_01.png ～ fighting_idle_07.png
+透過: RGBA PNG。四隅アルファ値を各画像について記録。
+ループ端点: 01と07は同じ基準画像。SHA256一致を確認。
+基準画像靴底Y（α>8、左右各画面半分内の最下画素）: 左1598、右1597。
+各中間画像に対してキャラクター全体へ一律に適用した垂直補正: 02:+15 px、03:+30 px、04:+32 px、05:+6 px、06:-2 px（プラスは下方向）。
+注意: フレーム02の両足の下端測定値は左右とも1598となり、基準画像の右足1597と1 pxずれが残る。左右別の補正は行っていない。
+動作検証: 生成画像は目視確認したが、画像生成だけでは腰の指定変位（0,-2,-4,-5,-4,-2,0 px）および髪・紐の相対変位を正確なpx単位で再現・計測できていない。したがって動作数値の完全適合は未確認。これは確認用ドラフトであり、完全適合品としては扱わない。
+fighting_idle_01.png: 660x1650, sole bottoms=1598/1597, corner alpha=0,0,0,0
+fighting_idle_02.png: 660x1650, sole bottoms=1598/1598, corner alpha=0,0,0,0
+fighting_idle_03.png: 660x1650, sole bottoms=1598/1597, corner alpha=0,0,0,0
+fighting_idle_04.png: 660x1650, sole bottoms=1598/1597, corner alpha=0,0,0,0
+fighting_idle_05.png: 660x1650, sole bottoms=1598/1597, corner alpha=0,0,0,0
+fighting_idle_06.png: 660x1650, sole bottoms=1598/1597, corner alpha=0,0,0,0
+fighting_idle_07.png: 660x1650, sole bottoms=1598/1597, corner alpha=0,0,0,0
+01/07 SHA256一致: True
+

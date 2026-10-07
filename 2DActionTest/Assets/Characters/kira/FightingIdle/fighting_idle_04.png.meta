@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6e77fb392c76dae4f942da175a4c670d
+guid: 3a9792adfaf474d4481f42dd2f94ae9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5308451747233082714
-    second: frame_03_0
+      213: -5682380584688444270
+    second: fighting_idle_04_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frame_03_0
+      name: fighting_idle_04_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 660
-        height: 1524
+        x: 9
+        y: 46
+        width: 651
+        height: 1502
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5d212d1db86ba940800000000000000
-      internalID: 5308451747233082714
+      spriteID: 29c911bf6f02421b0800000000000000
+      internalID: -5682380584688444270
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      frame_03_0: 5308451747233082714
+      fighting_idle_04_0: -5682380584688444270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
