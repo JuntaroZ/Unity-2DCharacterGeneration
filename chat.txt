@@ -3,22 +3,21 @@
 プロジェクト：
 C:\Users\junme\github\Unity-2DCharacterGeneration
 
-今回の生成対象：Character/karen/anim/fighting_idle.md 
+今回の生成対象：Character/karen/anim/left_jab.md 
 生成前に以下を読み込み、画像も実際に確認してください。
 
 - Character/common.md
 - Character/karen/character.md
 - Character/karen/image.png
 - Character/karen/fighting_base.png
-- Character/karen/anim/fighting_idle.md
 
 image.png と fighting_base.png を画像生成時の参照画像として使用してください。
 
 フレーム数・動作・画像サイズは参照ファイルの指定に従ってください。
-キャラクターデザイン、衣装、向き、カメラ、基本スケールを維持し、待機動作に必要な部分だけを変化させてください。
+キャラクターデザイン、衣装、向き、カメラ、基本スケールを維持し、必要な部分だけを変化させてください。
 
 各フレームを同じキャンバスサイズの透過PNGとして出力し、frame_01.png から始まる連番にしてください。
-すべてのフレームを fighting_idle.zip にまとめ、ダウンロードリンクを提示してください。
+すべてのフレームを zip にまとめ、ダウンロードリンクを提示してください。
 
 生成後は、指定フレーム数、背景透過、キャラクターの一貫性、ループのつながりを確認してください。
 他のアニメーションの生成や、既存のMarkdown・参照画像の変更は行わないでください。
