@@ -17,7 +17,7 @@ public class KarenController : MonoBehaviour
             Debug.Log("Space pressed");
         }
         
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             animator.SetTrigger("left_jab");
             Debug.Log("Left jab triggered");

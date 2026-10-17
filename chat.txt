@@ -3,7 +3,7 @@
 プロジェクト：
 C:\Users\junme\github\Unity-2DCharacterGeneration
 
-今回の生成対象：Character/karen/anim/left_jab.md 
+今回の生成対象：Character/karen/anim/right_punch.md 
 生成前に以下を読み込み、画像も実際に確認してください。
 
 - Character/common.md
