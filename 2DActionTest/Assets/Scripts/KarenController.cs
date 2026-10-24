@@ -20,7 +20,12 @@ public class KarenController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             animator.SetTrigger("left_jab");
-            Debug.Log("Left jab triggered");
+            Debug.Log("left_jab triggered");
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            animator.SetTrigger("right_middle_kick");
+            Debug.Log("right_middle_kick triggered");
         }
     }
 }
