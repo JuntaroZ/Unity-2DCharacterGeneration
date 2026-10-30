@@ -17,15 +17,20 @@ public class KarenController : MonoBehaviour
             Debug.Log("Space pressed");
         }
         
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             animator.SetTrigger("left_jab");
             Debug.Log("left_jab triggered");
         }
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             animator.SetTrigger("right_middle_kick");
             Debug.Log("right_middle_kick triggered");
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            animator.SetTrigger("right_low_kick");
+            Debug.Log("right_low_kick triggered");
         }
     }
 }
