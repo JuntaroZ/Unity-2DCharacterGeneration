@@ -7,7 +7,6 @@ TagManager:
   - LeftJabHitBox
   - MiddleKickHitBox
   - LowKickHitBox
-  - LowKickHitBox2
   layers:
   - Default
   - TransparentFX

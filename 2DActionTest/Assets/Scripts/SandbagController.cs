@@ -30,7 +30,7 @@ public class SandboxController : MonoBehaviour
             // ミドルキックのダメージ処理
             animator.SetTrigger("middle_damage");
         }
-        else if (other.CompareTag("LowKickHitBox") || other.CompareTag("LowKickHitBox2"))
+        else if (other.CompareTag("LowKickHitBox"))
         {
             Debug.Log("ローキックが当たった");
             // ローキックのダメージ処理
