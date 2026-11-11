@@ -18,7 +18,23 @@ public class SandboxController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        animator.SetTrigger("upper_damage");
-        Debug.Log($"ジャブ接触：{other.name}");
+        if (other.CompareTag("LeftJabHitBox"))
+        {
+            Debug.Log("左ジャブが当たった");
+            // 左ジャブのダメージ処理
+            animator.SetTrigger("upper_damage");
+        }
+        else if (other.CompareTag("MiddleKickHitBox"))
+        {
+            Debug.Log("ミドルキックが当たった");
+            // ミドルキックのダメージ処理
+            animator.SetTrigger("middle_damage");
+        }
+        else if (other.CompareTag("LowKickHitBox") || other.CompareTag("LowKickHitBox2"))
+        {
+            Debug.Log("ローキックが当たった");
+            // ローキックのダメージ処理
+            animator.SetTrigger("low_damage");
+        }
     }    
 }
